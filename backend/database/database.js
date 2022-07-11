@@ -9,8 +9,7 @@ const connectDatabase = () => {
     })
     .then((data) =>
       console.log(`connection successfull with server ${data.connection.host}`)
-    )
-    .catch((err) => console.log(err));
+    );
 };
 
 module.exports = connectDatabase;

@@ -11,5 +11,6 @@ const connectDatabase = () => {
       console.log(`connection successfull with server ${data.connection.host}`)
     );
 };
+//
 
 module.exports = connectDatabase;
